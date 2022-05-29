@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    background:#1a1a1a;
+}
+h1{
+    color: white;
+    font-family: 'Titan One', cursive;
+    font-size:80px;
+    text-align: center;
+}
+h2{
+    margin-top: 35%;
+    font-size:40px;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+    text-align: center;
+}
+h3 {
+    color:white;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 2%;
+}
+.main{
+    width:330px;
+    height:330px;
+    border:1px solid #1a1a1a;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%;
+}
+
+.circle{
+    width:50px;
+    height:10px;
+    background:#f24726;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 7.2s linear infinite;
+}
+
+.circle2{
+    width:50px;
+    height:10px;
+    background:#f24726;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 6.8s linear infinite;
+}
+
+.circle3{
+    width:50px;
+    height:10px;
+    background:#f24726;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 6.4s linear infinite;
+}
+.circle4{
+    width:50px;
+    height:10px;
+    background:#f24726;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 6s linear infinite;
+}
+.circle5{
+    width:50px;
+    height:10px;
+    background:#f24726;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 5.6s linear infinite;
+}
+.circle6{
+    width:50px;
+    height:10px;
+    background:#f24726;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 5.2s linear infinite;
+}
+.circle7{
+    width:50px;
+    height:10px;
+    background:#f24726;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 4.8s linear infinite;
+}
+.circle8{
+    width:50px;
+    height:10px;
+    background:#f24726;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 4.4s linear infinite;
+}
+.circle9{
+    width:50px;
+    height:10px;
+    background:#f24726;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 4s linear infinite;
+}
+@keyframes circle{
+    0%{
+        transform:rotate(0deg)
+        translate(-165px)
+        rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg)
+        translate(-165px)
+        rotate(360deg);
+    }
+}
+@keyframes circle2{
+    0%{
+        transform:rotate(0deg)
+        translate(-165px)
+        rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg)
+        translate(-165px)
+        rotate(-360deg);
+    }
+}
+@keyframes circle3{
+    0%{
+        transform:rotate(0deg)
+        translate(-165px)
+        rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg)
+        translate(-165px)
+        rotate(-360deg);
+    }
+}
+
